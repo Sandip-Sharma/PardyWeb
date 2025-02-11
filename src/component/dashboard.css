@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dashboard-section,.login-section,.auth-section{
+    background-image: url(../assets/dahboardbg.jpeg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.452);
+    backdrop-filter: blur(3.9px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+

@@ -1,0 +1,32 @@
+.bg{
+    background-image: url(../assets/midevelage.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.locator{
+    height: 100px;
+}
+.bar{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 70%;
+}
+
+.dance{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 10%;
+}
+
+.IrHouse{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 60%;
+}
+.IrCatel{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 45%;
+}

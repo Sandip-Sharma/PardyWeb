@@ -1,0 +1,107 @@
+.period {
+    background-image: url(../assets/partybackground.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 1242px;
+    height: 600px;
+
+    background: rgba(255, 255, 255, 0.452);
+    backdrop-filter: blur(3.9px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.text {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 22px;
+    /* identical to box height, or 69% */
+    text-align: center;
+    color: #561ca2;
+}
+
+.cardwrp{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-image: url(../assets/PrehistoricEra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 150px rgba(0, 0, 0, 5000); /* Inner shadow from top */
+    width: 400px;
+    height: 500px;
+
+    /* background: rgba(0, 0, 0, 0.498); */
+    backdrop-filter: blur(3.9px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+
+}
+.card1 {
+    background-image: url(../assets/ironeage.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 150px rgba(0, 0, 0, 5000); /* Inner shadow from top */
+
+    width: 400px;
+    height: 500px;
+
+    /* background: rgba(0, 0, 0, 0.498); */
+    backdrop-filter: blur(3.9px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+
+}
+.card2 {
+    margin-top: -200px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../assets/future.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 150px rgba(0, 0, 0, 5000); /* Inner shadow from top */
+    width: 400px;
+    height: 500px;
+
+    /* background: rgba(0, 0, 0, 0.498); */
+    backdrop-filter: blur(3.9px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+
+}
+
+  
+ 
+  
+  
+  
+ h4{
+    color: white;
+    font-size: 30px;
+ }
+  
+
+  /* Hover Effect */
+  .card,.card1,.card2:hover {
+    transform: scale(1.05);
+  }
+  
